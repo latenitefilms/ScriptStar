@@ -1,0 +1,47 @@
+input: .
+output: .retype
+
+url: scriptstar.fcp.cafe
+
+branding:
+  title: ScriptStar
+  logo: static/logo.png
+
+links:
+
+- text: Buy on Mac App Store
+  link: /buy/
+  icon: desktop-download
+
+- text: Issues
+  link: https://github.com/latenitefilms/ScriptStar/issues
+  icon: issue-opened
+  target: blank
+
+- text: Discussions
+  link: https://github.com/latenitefilms/ScriptStar/discussions
+  icon: comment-discussion
+  target: blank
+
+- text: Discord
+  link: https://ltnt.tv/discord
+  icon: comment-discussion
+  target: blank
+
+- text: FCP Cafe
+  link: https://fcp.cafe
+  icon: git-branch
+  target: blank
+
+- text: LateNite
+  link: https://fcp.cafe/latenite/
+  icon: light-bulb
+  target: blank
+
+footer:
+  copyright: "&copy; Copyright {{ year }} LateNite Films Pty Ltd. All rights reserved."
+
+poweredByRetype: false
+
+scheme:
+  mode: dark
