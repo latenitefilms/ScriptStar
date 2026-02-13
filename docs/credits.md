@@ -2,11 +2,11 @@
 
 **ScriptStar** has been created by [Iain Anderson](https://iain-anderson.com).
 
-This product uses [FCPXMLKit](https://fcp.cafe/latenite/#fcpxmlkit) for FCPXML processing, created by [David Peterson](https://github.com/randomeizer/).
+This product uses LateNite's [FCPXMLKit](https://fcp.cafe/latenite/#fcpxmlkit) for FCPXML processing, created by [David Peterson](https://github.com/randomeizer/).
 
 The **ScriptStar** icon was designed by the amazing [Matthew Skiles](http://matthewskiles.com).
 
-ScriptStar is released by LateNite, who also created [CommandPost](https://commandpost.io), [Transfer Toolbox](https://transfertoolbox.io), [BRAW Toolbox](https://brawtoolbox.io), [Marker Toolbox](https://markertoolbox.io) and [Gyroflow Toolbox](https://gyroflowtoolbox.io).
+ScriptStar is released and supported by [LateNite](https://fcp.cafe/latenite), who also created [CommandPost](https://commandpost.io), [Transfer Toolbox](https://transfertoolbox.io), [BRAW Toolbox](https://brawtoolbox.io), [Marker Toolbox](https://markertoolbox.io), [Gyroflow Toolbox](https://gyroflowtoolbox.io) and many other apps for professional video editors.
 
 You can learn more about LateNite's creations over at [FCP Cafe](https://fcp.cafe/latenite/).
 
@@ -14,7 +14,7 @@ You can learn more about LateNite's creations over at [FCP Cafe](https://fcp.caf
 
 ## FCPXMLKit
 
-This product uses [FCPXMLKit](https://fcp.cafe/latenite/#fcpxmlkit) for FCPXML processing, created by [David Peterson](https://github.com/randomeizer/).
+ScriptStar uses LateNite's [FCPXMLKit](https://fcp.cafe/latenite/#fcpxmlkit) for FCPXML processing, created by [David Peterson](https://github.com/randomeizer/).
 
 ---
 
