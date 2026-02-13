@@ -3,9 +3,12 @@ output: .retype
 
 url: scriptstar.fcp.cafe
 
+favicon: static/favicon.ico
+
 branding:
   title: ScriptStar
-  logo: static/logo.png
+  logo: static/logo-light.png
+  logoDark: static/logo-dark.png
 
 links:
 
