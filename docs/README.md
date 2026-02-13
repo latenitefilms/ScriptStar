@@ -6,7 +6,7 @@
 
 It converts Final Cut Pro’s built-in transcripts into named favourite ranges on the same browser clips. This lets you see exactly what was said, instantly select it, and add it to your timeline.
 
-![](/static/scriptstar-homepage.png)
+![](/static/scriptstar-01.png)
 
 ---
 
