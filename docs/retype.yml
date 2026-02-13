@@ -7,8 +7,8 @@ favicon: static/favicon.ico
 
 branding:
   title: ScriptStar
-  logo: static/logo-light.png
-  logoDark: static/logo-dark.png
+  logo: static/logo-dark.png
+  logoDark: static/logo-light.png
 
 links:
 
