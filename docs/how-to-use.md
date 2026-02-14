@@ -8,19 +8,19 @@ To start, import your clips into a Final Cut Pro library as usual, and organize 
 
 You can launch ScriptStar from both your `/Applications` folder, and via the Final Cut Pro Workflow Extensions button in the toolbar and menubar.
 
-![](/static/scriptstar-06.png)
+![](/docs/static/scriptstar-06.png)
 
 Once launched, simply drag your **Final Cut Pro Library** (from the Browser) into the drop zone (in ScriptStar) to get started.
 
-![](/static/scriptstar-01.png)
+![](/docs/static/scriptstar-01.png)
 
 Choose the events you want to process, then press Continue. 
 
-![](/static/scriptstar-02.png)
+![](/docs/static/scriptstar-02.png)
 
 At this point you can replace any of the built-in transcripts by dragging in SRT files that match the names of any of your existing clips. This is great for foreign languages, if you’ve had clips transcribed or edited by humans, or if Final Cut Pro’s transcript hasn’t worked.
 
-![](/static/scriptstar-04.png)
+![](/docs/static/scriptstar-04.png)
 
 Press Continue to send the named favorites back to Final Cut Pro.
 They'll appear in new events with a star at the end of the name.
@@ -29,7 +29,7 @@ Before you leave ScriptStar, there’s one more optional step. If you want to se
 
 Formats include `CSV`, `Word` and `PDF`.
 
-![](/static/scriptstar-05.png)
+![](/docs/static/scriptstar-05.png)
 
 Back in Final Cut Pro, look for the events with the star in the name, and twirl each clip’s disclosure triangle to see every line of transcribed dialogue. Select the lines you want and drag or tap E to add them to a timeline.
 
