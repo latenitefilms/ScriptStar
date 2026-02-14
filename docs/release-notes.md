@@ -1,8 +1,8 @@
 # Release Notes
 
-### 1.0.0 (1)
+### 1.0.0 (Build 9)
 
 **🎉 Released:**
-- TBC
+- COMING VERY SOON!
 
-This is the first release of ScriptStar. Woohoo!
+This is the first release of **ScriptStar**. Woohoo!
