@@ -27,7 +27,7 @@ They'll appear in new events with a star at the end of the name.
 
 Before you leave ScriptStar, there’s one more optional step. If you want to send your clients a timed transcript, so they can highlight the most important phrases in interviews, or if you'd found it useful yourself, you can now export those transcripts in whatever format suits your workflow.
 
-Formats include `CSV`, Word and `PDF`.
+Formats include `CSV`, `Word` and `PDF`.
 
 ![](/static/scriptstar-05.png)
 
