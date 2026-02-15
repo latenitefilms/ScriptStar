@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.12.0.824431839289">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.12.0.824501160704">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.12.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=3.12.0.824431839289" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.12.0.824501160704" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.12.0.824431839289" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.12.0.824501160704" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.12.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.12.0.824431839289" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.12.0.824501160704" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -279,48 +279,76 @@
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
+<hr>
+<doc-anchor-target id="intro-video">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#intro-video">#</doc-anchor-trigger>
+        <span>Intro Video</span>
+    </h2>
+</doc-anchor-target>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1164958081?h=c926977cf9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Introducing ScriptStar"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<hr>
+<doc-anchor-target id="instructions">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#instructions">#</doc-anchor-trigger>
+        <span>Instructions</span>
+    </h2>
+</doc-anchor-target>
 <p>To start, import your clips into a Final Cut Pro library as usual, and organize them into events if you like.</p>
+<p>By default in <strong>Final Cut Pro v12</strong> (lifetime/perpetual) and <strong>Final Cut Pro Creator Studio v12</strong> (subscription), <strong>Transcribe in English</strong> is enabled by default.</p>
+<p><figure class="content-center">
+    <img src="../static/fcp-preferences.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>ScriptStar uses this transcription data - although this can be &quot;overruled&quot; by a user supplied <code translate="no" v-pre>SRT</code> file.</p>
 <p>You can launch ScriptStar from both your <code translate="no" v-pre>/Applications</code> folder, and via the Final Cut Pro Workflow Extensions button in the toolbar and menubar.</p>
 <p><figure class="content-center">
     <img src="../static/scriptstar-06.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>Once launched, simply drag your <strong>Final Cut Pro Library</strong> (from the Browser) into the drop zone (in ScriptStar) to get started. Note: if this is the first time you have worked with this Library, you will also have to give permission to access it.</p>
+<p>Once launched, simply drag your <strong>Final Cut Pro Library</strong> from the Final Cut Pro Browser interface into the drop zone in ScriptStar to get started.</p>
+<p>Due to sandbox requirements, if this is the first time you have worked with this Library, you will also have to give permission to access it.</p>
+<p>To confirm, you need to drag the Final Cut Pro Library from the Final Cut Pro interface, and <strong>NOT</strong> Finder.</p>
 <p><figure class="content-center">
     <img src="../static/scriptstar-01.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>Choose the events you want to process, then press Continue.</p>
+<p>Choose the events you want to process, then press <strong>Continue</strong>.</p>
 <p><figure class="content-center">
     <img src="../static/scriptstar-02.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>At this point you can replace any of the built-in transcripts by dragging in SRT files that match the names of any of your existing clips. This is great for foreign languages, if you’ve had clips transcribed or edited by humans, or if Final Cut Pro’s transcript hasn’t worked.</p>
+<p>At this point you can replace any of the built-in transcripts by dragging in <code translate="no" v-pre>SRT</code> files that match the names of any of your existing clips.</p>
+<p>This is great for foreign languages, if you’ve had clips transcribed or edited by humans, or if Final Cut Pro’s transcript hasn’t worked or has poor results.</p>
 <p><figure class="content-center">
     <img src="../static/scriptstar-04.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>Press Continue to send the named favorites back to Final Cut Pro.
-They&#x27;ll appear in new events with a star at the end of the name.</p>
-<p>Before you leave ScriptStar, there’s one more optional step. If you want to send your clients a timed transcript, so they can highlight the most important phrases in interviews, or if you&#x27;d found it useful yourself, you can now export those transcripts in whatever format suits your workflow.</p>
+<p>Press <strong>Continue</strong> to send the named favorites back to Final Cut Pro.</p>
+<p>They&#x27;ll appear in new events with a star at the end of the name.</p>
+<p>Before you leave ScriptStar, there’s one more optional step.</p>
+<p>If you want to send your clients a timed transcript, so they can highlight the most important phrases in interviews, or if you&#x27;d found it useful yourself, you can now export those transcripts in whatever format suits your workflow.</p>
 <p>Formats include <code translate="no" v-pre>CSV</code>, <code translate="no" v-pre>Word</code> and <code translate="no" v-pre>PDF</code>.</p>
 <p><figure class="content-center">
     <img src="/static/scriptstar-05-cropped.jpg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>Back in Final Cut Pro, look for the events with the star in the name, and twirl each clip’s disclosure triangle to see every line of transcribed dialogue. Select a line, play it back by pressing / (slash), then drag it to a timeline or tap E to append it.</p>
-<p>The transcript search in Final Cut Pro still works, but if you want to search through the named favorites, choose Favorites in the Clip Filtering menu. (If you don&#x27;t do this, searches return the entire source clip.)</p>
+<p>Back in Final Cut Pro, look for the events with the star in the name, and twirl each clip’s disclosure triangle to see every line of transcribed dialogue.</p>
+<p>Select a line, play it back by pressing / (slash), then drag it to a timeline or tap <code translate="no" v-pre>E</code> to append it.</p>
+<p>The transcript search in Final Cut Pro still works, but if you want to search through the named favorites, choose <strong>Favorites</strong> in the Clip Filtering menu. If you don&#x27;t do this, searches return the entire source clip.</p>
 <p><figure class="content-center">
     <img src="../static/scriptstar-still-clip-filtering-crop.jpg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>Scriptstar works with regular clips and multicam clips, and it&#x27;s a great way to find not just dialogue, but anything said out loud during a shoot. If something great just happened, or there&#x27;s anything else you need to remember, say it out loud and you&#x27;ll see it in your browser during the edit.</p>
+<p>Scriptstar works with regular clips and Multicam clips, and it&#x27;s a great way to find not just dialogue, but anything said out loud during a shoot.</p>
+<p>If something great just happened, or there&#x27;s anything else you need to remember, say it out loud and you&#x27;ll see it in your Browser during the edit.</p>
 <p><figure class="content-center">
     <img src="../static/scriptstar-logging-crop.jpg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption"></figcaption>
