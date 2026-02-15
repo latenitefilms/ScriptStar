@@ -10,6 +10,14 @@ You can find information about Educational Pricing [here](/educational/).
 
 ---
 
+## Tools for Professionals
+
+You can learn more about LateNite's amazing range of apps on [FCP Cafe](https://fcp.cafe/latenite/).
+
+![](/static/lateniteapps.png)
+
+---
+
 ## Unlock CommandPost
 
 CommandPost is **The Swiss Army Knife for Post Production Professionals**.
@@ -22,6 +30,8 @@ All of the 2024 and 2025 **Apple Worldwide Developer Conference (WWDC)** videos 
 
 After **9 years of free updates**, to ensure that CommandPost continues to be developed, improved, and stay open-source, we've decided that you need at least ONE paid LateNite application installed to use CommandPost moving forward - consider it "inner circle" software (i.e. only our mates get access to it).
 
-You can use **ScriptStar** to "unlock" CommandPost!
+You can use **ScriptStar** to "unlock" CommandPost! 🥳
+
+You can download and learn more on the [CommandPost website](https://commandpost.fcp.cafe).
 
 ![](/static/commandpost.png)
