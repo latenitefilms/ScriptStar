@@ -4,13 +4,15 @@ ScriptStar brings full text-based editing to Final Cut Pro.
 
 It converts Final Cut Pro’s built-in transcripts into named favorite ranges on the same browser clips. This lets you see exactly what was said, instantly select it, and add it to your timeline. 
 
+![](/static/scriptstar-named-faves-example.jpg)
+
 To start, import your clips into a Final Cut Pro library as usual, and organize them into events if you like.
 
 You can launch ScriptStar from both your `/Applications` folder, and via the Final Cut Pro Workflow Extensions button in the toolbar and menubar.
 
 ![](/static/scriptstar-06.png)
 
-Once launched, simply drag your **Final Cut Pro Library** (from the Browser) into the drop zone (in ScriptStar) to get started.
+Once launched, simply drag your **Final Cut Pro Library** (from the Browser) into the drop zone (in ScriptStar) to get started. Note: if this is the first time you have worked with this Library, you will also have to give permission to access it.
 
 ![](/static/scriptstar-01.png)
 
@@ -29,11 +31,15 @@ Before you leave ScriptStar, there’s one more optional step. If you want to se
 
 Formats include `CSV`, `Word` and `PDF`.
 
-![](/static/scriptstar-05.png)
+![](/static/scriptstar-05-cropped.jpg)
 
-Back in Final Cut Pro, look for the events with the star in the name, and twirl each clip’s disclosure triangle to see every line of transcribed dialogue. Select the lines you want and drag or tap E to add them to a timeline.
+Back in Final Cut Pro, look for the events with the star in the name, and twirl each clip’s disclosure triangle to see every line of transcribed dialogue. Select a line, play it back by pressing / \(slash\), then drag it to a timeline or tap E to append it.
 
-The transcript search in Final Cut Pro still works, but if you want to search through the named favorites, choose Favorites Only in the clip filtering menu here.
+The transcript search in Final Cut Pro still works, but if you want to search through the named favorites, choose Favorites in the Clip Filtering menu. \(If you don't do this, searches return the entire source clip.\)
 
-Scriptstar works with regular clips and multicam clips, and it's a great way to find not just dialogue, but anything said out loud during a shoot.
+![](/static/scriptstar-still-clip-filtering-crop.jpg)
+
+Scriptstar works with regular clips and multicam clips, and it's a great way to find not just dialogue, but anything said out loud during a shoot. If something great just happened, or there's anything else you need to remember, say it out loud and you'll see it in your browser during the edit.
+
+![](/static/scriptstar-logging-crop.jpg)
 
