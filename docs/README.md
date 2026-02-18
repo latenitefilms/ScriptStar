@@ -1,6 +1,6 @@
 # ScriptStar
 
-**ScriptStar** brings full text-based editing to Final Cut Pro.
+**ScriptStar** brings text-based editing to Final Cut Pro.
 
 > [:icon-desktop-download: Click here to **buy** on the **Mac App Store**](/buy/)
 
