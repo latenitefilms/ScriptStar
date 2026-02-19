@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.0.3 (Build 12)
+
+**🎉 Released:**
+- Thursday 19th February 2026
+
+**🔨 Improvements:**
+- Improvements to progress bars/spinners when importing MASSIVE Final Cut Pro Libraries.
+
+---
+
 ### 1.0.2 (Build 11)
 
 **🎉 Released:**
