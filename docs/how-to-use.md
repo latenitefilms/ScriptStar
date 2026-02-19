@@ -23,9 +23,11 @@ By default in **Final Cut Pro v12** (lifetime/perpetual) and **Final Cut Pro Cre
 
 ![](/static/fcp-preferences.png)
 
-ScriptStar uses this transcription data - although this can be "overruled" by a user supplied `SRT` file.
+ScriptStar uses this transcription data. However, if you didn't transcribe your clips on import (which will be the case if your library was created before FCP 12) then you can transcribe them now. Select one or many clips, right-click, choose Analyze and Fix, and check Transcribe in English in the dialog that appears.
 
-You can launch ScriptStar from both your `/Applications` folder, and via the Final Cut Pro Workflow Extensions button in the toolbar and menubar.
+However, If you'd prefer to use your own transcripts, which is necessary for non-English captions, you can provide an `SRT` file that will be used in place of the built-in transcripts.
+
+With clips transcribed, you can now launch ScriptStar from either your `/Applications` folder, or via the Final Cut Pro Workflow Extensions button in the toolbar and menubar.
 
 ![](/static/scriptstar-06.png)
 
