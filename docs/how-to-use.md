@@ -29,7 +29,7 @@ However, If you'd prefer to use your own transcripts, which is necessary for non
 
 With clips transcribed, you can now launch ScriptStar from either your `/Applications` folder, or via the Final Cut Pro Workflow Extensions button in the toolbar and menubar.
 
-![](/static/scriptstar-06.png)
+![](/static/scriptstar-extension-smaller.png)
 
 Once launched, simply drag your **Final Cut Pro Library** from the Final Cut Pro Browser interface into the drop zone in ScriptStar to get started.
 
