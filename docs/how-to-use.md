@@ -74,3 +74,7 @@ Scriptstar works with regular clips and Multicam clips, and it's a great way to 
 If something great just happened, or there's anything else you need to remember, say it out loud and you'll see it in your Browser during the edit.
 
 ![](/static/scriptstar-logging-crop.jpg)
+
+Lastly, if you had already applied Favorite ranges to clips or clip ranges before using ScriptStar, they will be converted into a new keyword called `Favorites ⭐️`. Each converted event will include this keyword collection, and you can apply this keyword the same way you would have applied favorites before.
+
+If you wish to continue to use traditional Favorites for B-roll clips and ScriptStar's transcript favorites for A-roll clips, simply move these clips into separate events, and don't process the event containing the B-roll clips.
