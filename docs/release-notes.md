@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.2.0 (Build 14)
+
+**🎉 Released:**
+- Friday 20th February 2026
+
+**🔨 Improvements:**
+- You now have two ways to import transcripts into Final Cut Pro. You can continue to use the **Named Favourites** workflow, or alternatively you can use the new **Notes on Keywords** workflow - which creates keywords with the transcription saved within the **Notes** column in the Final Cut Pro Browser.
+
+---
+
 ### 1.1.0 (Build 13)
 
 **🎉 Released:**
