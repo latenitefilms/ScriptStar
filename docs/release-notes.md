@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.1.0 (Build 13)
+
+**🎉 Released:**
+- Friday 20th February 2026
+
+**🔨 Improvements:**
+- If you have existing Favourite ranges on your clips that get imported into ScriptStar, we now convert them to a Keyword Collection called **Favorites ⭐️**.
+
+---
+
 ### 1.0.3 (Build 12)
 
 **🎉 Released:**
