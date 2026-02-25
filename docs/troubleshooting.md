@@ -2,7 +2,9 @@
 
 Apologies in advance if you have any trouble using ScriptStar. Please read this page first, and if the solutions here don't solve your problem, please [post an issue](https://github.com/latenitefilms/scriptstar/issues) on Github and we'll do our best to solve it.
 
-### If your Library fails to export to ScriptStar — `FCPXML` issues
+---
+
+### If your Library fails to export to ScriptStar — `FCPXML` issues {#fcpxml-issues}
 
 Sometimes Final Cut Pro can output invalid or incomplete data, and this causes issues for ScriptStar.
 
@@ -34,7 +36,9 @@ However, some things you can try to work around the issues with FCP's output:
 
 If you're still having issues, please [post an issue](https://github.com/latenitefilms/scriptstar/issues) on GitHub and we'll get back to you ASAP.
 
-### If ScriptStar has crashed
+---
+
+### If ScriptStar has crashed {#crash}
 
 Sorry! So you can send them to us, please try to find ScriptStar crash reports here:
 
