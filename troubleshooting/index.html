@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.0.0.825293414650">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.0.0.825303323095">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.0.0">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>Troubleshooting</title>
     <meta name="title" content="Troubleshooting">
-    <meta name="description" content="You can find any crash reports here:">
+    <meta name="description" content="Apologies in advance if you have any trouble using ScriptStar. Please read this page first, and if the solutions here don't solve your problem, please post">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://scriptstar.fcp.cafe/troubleshooting/">
@@ -21,7 +21,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://scriptstar.fcp.cafe/troubleshooting/">
     <meta property="og:title" content="Troubleshooting">
-    <meta property="og:description" content="You can find any crash reports here:">
+    <meta property="og:description" content="Apologies in advance if you have any trouble using ScriptStar. Please read this page first, and if the solutions here don't solve your problem, please post">
     <meta property="og:image" content="https://scriptstar.fcp.cafe/static/thumbnail.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -32,11 +32,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.0.0.825293414650" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.0.0.825303323095" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.0.0.825293414650" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.0.0.825303323095" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.0.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.0.0.825293414650" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.0.0.825303323095" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -271,13 +271,14 @@
         <span>Troubleshooting</span>
     </h1>
 </doc-anchor-target>
-<doc-anchor-target id="scriptstar-has-crashed">
+<p>Apologies in advance if you have any trouble using ScriptStar. Please read this page first, and if the solutions here don&#x27;t solve your problem, please <a href="https://github.com/latenitefilms/scriptstar/issues" class="outbound" target="_blank"><span>post an issue</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> on Github and we&#x27;ll do our best to solve it.</p>
+<doc-anchor-target id="if-scriptstar-has-crashed">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#scriptstar-has-crashed">#</doc-anchor-trigger>
-        <span>ScriptStar has crashed</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#if-scriptstar-has-crashed">#</doc-anchor-trigger>
+        <span>If ScriptStar has crashed</span>
     </h3>
 </doc-anchor-target>
-<p>You can find any crash reports here:</p>
+<p>Sorry! So you can send them to us, please try to find ScriptStar crash reports here:</p>
 <p><code translate="no" v-pre>/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports</code></p>
 <p>You can also copy the below path, press <strong>COMMAND+SHIFT+G</strong> from Finder (or via the <strong>Go &gt; Go to Folder...</strong> menubar item), and paste in that path into the <strong>Go to Folder</strong> popup:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
@@ -289,28 +290,29 @@
 <p>Please <code translate="no" v-pre>ZIP</code> up all of these individual crash logs, so that we can review them all.</p>
 <p>You <a href="https://github.com/latenitefilms/scriptstar/issues" class="outbound" target="_blank"><span>post an issue</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> with these files in a <code translate="no" v-pre>ZIP</code>, and we&#x27;ll try and resolve your specific problem.</p>
 <hr>
-<doc-anchor-target id="fcpxml-issues">
+<doc-anchor-target id="if-your-library-fails-to-export-to-scriptstar--fcpxml-issues">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#fcpxml-issues">#</doc-anchor-trigger>
-        <span><code translate="no" v-pre>FCPXML</code> issues</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#if-your-library-fails-to-export-to-scriptstar--fcpxml-issues">#</doc-anchor-trigger>
+        <span>If your Library fails to export to ScriptStar — <code translate="no" v-pre>FCPXML</code> issues</span>
     </h3>
 </doc-anchor-target>
+<p>Sometimes Final Cut Pro can output invalid or incomplete data, and this causes issues for ScriptStar.</p>
 <p>When you drag a <strong>Library</strong> from the Final Cut Pro <strong>Browser</strong> to ScriptStar, you&#x27;re dragging <code translate="no" v-pre>FCPXML</code> data (as plain text).</p>
 <p>You can see this in action if instead of dragging your <strong>Library</strong> to ScriptStar, you drag it to <strong>TextEdit</strong> - you&#x27;ll see TextEdit populated with <code translate="no" v-pre>FCPXML</code> data.</p>
-<p>Unfortunately, <strong>Final Cut Pro v12</strong> currently has some known bugs/issues where it can&#x27;t actually export a <code translate="no" v-pre>FCPXML</code> that it can then import back into itself.</p>
-<p>Final Cut Pro is incorrectly outputting <code translate="no" v-pre>FCPXML</code> data that isn&#x27;t correct/valid - and is failing it&#x27;s own Document Type Definition (DTD).</p>
+<p>Unfortunately, <strong>Final Cut Pro v12</strong> currently has some known bugs/issues where <em>sometimes</em> it can&#x27;t actually export a <code translate="no" v-pre>FCPXML</code> that it can then import back into itself.</p>
+<p>In these cases, Final Cut Pro is incorrectly outputting <code translate="no" v-pre>FCPXML</code> data that isn&#x27;t correct/valid - and is failing it&#x27;s own Document Type Definition (DTD).</p>
 <p>We are tracking this on FCP Cafe:</p>
 <ul>
 <li><a href="https://github.com/CommandPost/FCPCafe/issues/523" class="outbound" target="_blank"><span>Final Cut Pro mishandles format of PDF files in FCPXML</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li>
 <li><a href="https://github.com/CommandPost/FCPCafe/issues/521" class="outbound" target="_blank"><span>FCPXML Crash - <code translate="no" v-pre>FFXMLExporter(TextStyleExport) newTextStylesForAttributedString:registerStyleTo:</code></span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li>
 </ul>
-<p>These issues have been reported to the Final Cut Pro team.</p>
-<p>Sadly, when Final Cut Pro outputs bad data, there&#x27;s not much we can do about it.</p>
+<p>These issues have also been reported to the Final Cut Pro team.</p>
 <p>If you&#x27;re having issues with ScriptStar, we suggest trying to export a <code translate="no" v-pre>FCPXML</code> of your <strong>Library</strong> to your Desktop and then import it into a new Library.</p>
-<p>If it fails to export, or fails to import, then sadly, ScriptStar won&#x27;t work.</p>
-<p>Things you can try to fix Final Cut Pro:</p>
+<p>If it fails to export, or fails to import, then sadly, ScriptStar won&#x27;t work, and we can&#x27;t change the data that Final Cut Pro is sending to us.</p>
+<p>However, some things you can try to work around the issues with FCP&#x27;s output:</p>
 <ul>
-<li>Create a new Final Cut Pro <strong>Library</strong> and drag all your <strong>Events</strong> from the old Library to the new Library.</li>
+<li>Create a new Final Cut Pro <strong>Library</strong> and drag all your <strong>Events</strong> from the old Library to the new Library. You can then transcribe these clips and try to process this new Library with ScriptStar.</li>
+<li>Alternatively, if your Library is large or complex, create a new Final Cut Pro <strong>Library</strong> and drag over just the clips you want to process with ScriptStar to the new Library. You can then transcribe these clips and process this new Library with ScriptStar. Finally, you can drag the new Event it makes back into your original Library.</li>
 <li>Replace any <code translate="no" v-pre>PDF</code>s in your <strong>Library</strong> with <code translate="no" v-pre>TIFF</code>&#x27;s or <code translate="no" v-pre>PNG</code>&#x27;s.</li>
 <li>Select your <strong>Project</strong> in the <strong>Browser</strong>, then hold down <code translate="no" v-pre>OPTION</code> and click the <code translate="no" v-pre>Clip</code> menubar item. You&#x27;ll see a previously hidden <code translate="no" v-pre>Verify and Repair Project</code> menubar item. You can use this to try and repair your <strong>Projects</strong> if there&#x27;s corruption.</li>
 </ul>
