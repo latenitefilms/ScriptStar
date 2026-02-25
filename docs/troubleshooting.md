@@ -2,30 +2,6 @@
 
 Apologies in advance if you have any trouble using ScriptStar. Please read this page first, and if the solutions here don't solve your problem, please [post an issue](https://github.com/latenitefilms/scriptstar/issues) on Github and we'll do our best to solve it.
 
-### If ScriptStar has crashed
-
-Sorry! So you can send them to us, please try to find ScriptStar crash reports here:
-
-`/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports`
-
-You can also copy the below path, press **COMMAND+SHIFT+G** from Finder (or via the **Go > Go to Folder...** menubar item), and paste in that path into the **Go to Folder** popup:
-
-```
-~/Library/Logs/DiagnosticReports
-```
-
-Any crashes related to ScriptStar will have **ScriptStar** at the start of the filename.
-
-There might also be crash logs in the **Retired** sub-folder (these are crash logs that have already been sent to Apple):
-
-`/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports/Retired`
-
-Please `ZIP` up all of these individual crash logs, so that we can review them all.
-
-You [post an issue](https://github.com/latenitefilms/scriptstar/issues) with these files in a `ZIP`, and we'll try and resolve your specific problem.
-
----
-
 ### If your Library fails to export to ScriptStar — `FCPXML` issues
 
 Sometimes Final Cut Pro can output invalid or incomplete data, and this causes issues for ScriptStar.
@@ -57,3 +33,25 @@ However, some things you can try to work around the issues with FCP's output:
 - Select your **Project** in the **Browser**, then hold down `OPTION` and click the `Clip` menubar item. You'll see a previously hidden `Verify and Repair Project` menubar item. You can use this to try and repair your **Projects** if there's corruption.
 
 If you're still having issues, please [post an issue](https://github.com/latenitefilms/scriptstar/issues) on GitHub and we'll get back to you ASAP.
+
+### If ScriptStar has crashed
+
+Sorry! So you can send them to us, please try to find ScriptStar crash reports here:
+
+`/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports`
+
+You can also copy the below path, press **COMMAND+SHIFT+G** from Finder (or via the **Go > Go to Folder...** menubar item), and paste in that path into the **Go to Folder** popup:
+
+```
+~/Library/Logs/DiagnosticReports
+```
+
+Any crashes related to ScriptStar will have **ScriptStar** at the start of the filename.
+
+There might also be crash logs in the **Retired** sub-folder (these are crash logs that have already been sent to Apple):
+
+`/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports/Retired`
+
+Please `ZIP` up all of these individual crash logs, so that we can review them all.
+
+You [post an issue](https://github.com/latenitefilms/scriptstar/issues) with these files in a `ZIP`, and we'll try and resolve your specific problem.
