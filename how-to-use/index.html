@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.0.1.825389136811">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.0.1.825390335314">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.0.1">
 
     <!-- Primary Meta Tags -->
-    <title>How To Use</title>
-    <meta name="title" content="How To Use">
-    <meta name="description" content="ScriptStar brings full text-based editing to Final Cut Pro.">
+    <title>How To Use (updated for v1.3.3)</title>
+    <meta name="title" content="How To Use (updated for v1.3.3)">
+    <meta name="description" content="ScriptStar brings text-based editing to Final Cut Pro.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://scriptstar.fcp.cafe/how-to-use/">
@@ -20,23 +20,23 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://scriptstar.fcp.cafe/how-to-use/">
-    <meta property="og:title" content="How To Use">
-    <meta property="og:description" content="ScriptStar brings full text-based editing to Final Cut Pro.">
+    <meta property="og:title" content="How To Use (updated for v1.3.3)">
+    <meta property="og:description" content="ScriptStar brings text-based editing to Final Cut Pro.">
     <meta property="og:image" content="https://scriptstar.fcp.cafe/static/scriptstar-named-faves-example.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="How To Use">
+    <meta property="og:image:alt" content="How To Use (updated for v1.3.3)">
     <meta property="og:site_name" content="ScriptStar">
     <meta property="og:locale" content="en_US">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.0.1.825389136811" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.0.1.825390335314" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.0.1.825389136811" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.0.1.825390335314" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.0.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.0.1.825389136811" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.0.1.825390335314" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -265,13 +265,13 @@
                 </nav>
 
                 <!-- Page content  -->
-<doc-anchor-target id="how-to-use" class="break-words">
+<doc-anchor-target id="how-to-use-updated-for-v133" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-use">#</doc-anchor-trigger>
-        <span>How To Use</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-use-updated-for-v133">#</doc-anchor-trigger>
+        <span>How To Use (updated for v1.3.3)</span>
     </h1>
 </doc-anchor-target>
-<p>ScriptStar brings full text-based editing to Final Cut Pro.</p>
+<p>ScriptStar brings text-based editing to Final Cut Pro.</p>
 <p>It converts Final Cut Pro’s built-in transcripts into named favorite ranges on the same browser clips. This lets you see exactly what was said, instantly select it, and add it to your timeline.</p>
 <p><figure class="content-center">
     <img src="../static/scriptstar-named-faves-example.jpg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
@@ -308,15 +308,25 @@
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>Once launched, simply drag your <strong>Final Cut Pro Library</strong> from the Final Cut Pro Browser interface into the drop zone in ScriptStar to get started.</p>
-<p>Due to sandbox requirements, if this is the first time you have worked with this Library, you will also have to give permission to access it.</p>
-<p>To confirm, you need to drag the Final Cut Pro Library from the Final Cut Pro interface, and <strong>NOT</strong> Finder.</p>
+<p>Once launched, simply drag your <strong>Final Cut Pro Library</strong> or one or more <strong>Final Cut Pro Events</strong> from the Final Cut Pro Browser interface into the drop zone in ScriptStar to get started.</p>
+<ul>
+<li><p>If you dragged one or more Events, you will now have to locate the Final Cut Pro library in the Finder — the Library&#x27;s location isn&#x27;t included in data dragged from Events.</p>
+</li>
+<li><p>If you dragged in a Library, you will also need to locate the Library in the Finder, but the location will be chosen for you, and this process is only needed the first time you work with a new Library. (This is necessary due to sandboxing requirements.)</p>
+</li>
+</ul>
+<p>To recap, you first need to drag the Final Cut Pro Library or Event to ScriptStar from the Final Cut Pro interface, and then, if asked, locate the Library in the Finder.</p>
+<p>Which should you choose to drag in, a Library or an Event?</p>
+<ul>
+<li>In most circumstances, we recommend dragging a Library. The process is simpler, and as ScriptStar is told the location of the Library, you can save a step. However, if you&#x27;re working with larger Libraries, dragging in just one or two of your Events may process more quickly.</li>
+<li>Working with Events can also avoid some issues we&#x27;ve seen with FCP. Specifically, if you have some kinds of PDFs stored in your Library, you may not be able to export and then re-import an FCPXML file of that Library back into Final Cut Pro — even if you don&#x27;t use ScriptStar at all! This issue impacts ScriptStar&#x27;s Library-level processing, so if you have problems working with Libraries, try just one Event (containing transcribed interviews) instead.</li>
+</ul>
 <p><figure class="content-center">
     <img src="../static/scriptstar-01.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>Choose the events you want to process, then press <strong>Continue</strong>.</p>
+<p>If you&#x27;ve chosen a Library, or more than one Event, you should now choose the Events you want to process, then press <strong>Continue</strong>.</p>
 <p><figure class="content-center">
     <img src="../static/scriptstar-02.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption"></figcaption>
@@ -329,17 +339,17 @@
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>Press <strong>Continue</strong> to send the named favorites back to Final Cut Pro.</p>
-<p>They&#x27;ll appear in new events with a star at the end of the name.</p>
+<p>Press <strong>Continue</strong> to send the named favorites back to Final Cut Pro. (For alternative workflows, you can press Show Options in the lower right corner — more on those at the end of this page.)</p>
+<p>Transcripted versions of your clips will appear in new events with a <span class="docs-emoji">&#x2B50;</span>️ at the end of the name.</p>
 <p>Before you leave ScriptStar, there’s one more optional step.</p>
 <p>If you want to send your clients a timed transcript, so they can highlight the most important phrases in interviews, or if you&#x27;d found it useful yourself, you can now export those transcripts in whatever format suits your workflow.</p>
-<p>Formats include <code translate="no" v-pre>CSV</code>, <code translate="no" v-pre>Word</code> and <code translate="no" v-pre>PDF</code>.</p>
+<p>Formats include <code translate="no" v-pre>CSV</code>, <code translate="no" v-pre>Word</code> and <code translate="no" v-pre>PDF</code>, and if you want all three, press the last button in the list.</p>
 <p><figure class="content-center">
     <img src="../static/scriptstar-05-cropped.jpg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>Back in Final Cut Pro, look for the events with the star in the name, and twirl each clip’s disclosure triangle to see every line of transcribed dialogue.</p>
+<p>Back in Final Cut Pro, look for the events with the <span class="docs-emoji">&#x2B50;</span>️ in the name, and twirl each clip’s disclosure triangle to see every line of transcribed dialogue.</p>
 <p>Select a line, play it back by pressing / (slash), then drag it to a timeline or tap <code translate="no" v-pre>E</code> to append it.</p>
 <p>The transcript search in Final Cut Pro still works, but if you want to search through the named favorites, choose <strong>Favorites</strong> in the Clip Filtering menu. If you don&#x27;t do this, searches return the entire source clip.</p>
 <p><figure class="content-center">
@@ -357,6 +367,37 @@
 <p>Lastly, if you had already applied Favorite ranges to clips or clip ranges before using ScriptStar, they will be converted into a new keyword called <code translate="no" v-pre>Favorites ⭐️</code>. Each converted event will include this keyword collection, and you can apply this keyword the same way you would have applied favorites before.</p>
 <p>For example, you can now select any line of dialogue, then drag it directly into the <code translate="no" v-pre>Favorites ⭐️</code> keyword collection to tag it.</p>
 <p>However, if you wish to continue to use traditional Favorites to organize B-roll clips, while using ScriptStar&#x27;s transcript favorites and <code translate="no" v-pre>Favorites ⭐️</code> keywords to organize A-roll clips, that&#x27;s easy. Simply move these two types of clips into separate events, and don&#x27;t process the event containing the B-roll clips.</p>
+<doc-anchor-target id="show-options-and-alternative-workflows">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#show-options-and-alternative-workflows">#</doc-anchor-trigger>
+        <span>Show Options and Alternative workflows</span>
+    </h2>
+</doc-anchor-target>
+<p>At the final stage before processing, where SRTs can be added, the Show Options button allows two alternative workflows to be chosen. When you press Show Options, a panel appears with three choices:</p>
+<ul>
+<li>Named Favorites</li>
+<li>Named Favorites on current Favorite ranges only</li>
+<li>Notes on Keywords</li>
+</ul>
+<p><strong>Named Favorites</strong> is the default, and will follow the workflow outlined above, placing transcripts onto Named Favorites, and existing Favorites onto the <code translate="no" v-pre>Favorites ⭐️</code> keyword.</p>
+<p><strong>Named Favorites on current Favorite ranges only</strong> does just that — it only add transcripts onto ranges of clips where Favorites have already been marked.</p>
+<p>This will suit users who like to Favorite their clips before adding transcripts, and who only want to see transcripts in those areas. However, as no transcripts will be added outside these Favorite ranges, it may be harder to find additional lines of dialogue.</p>
+<p><strong>Notes on Keywords</strong> keeps favorites intact, but it changes the way you’ll need to interact with transcripted clips inside FCP.</p>
+<p><em>We only recommend Notes on Keywords for advanced users.</em></p>
+<p>Instead of using Favorite to store the transcript, this alternate mode makes keyword ranges for each line of dialogue, all with the same name (<span class="docs-emoji">&#x2B50;</span>️) and puts the transcripts on each instance’s notes field.</p>
+<p>This means existing Favorites and related functionality are maintained — allowing you to search for Favorites across an entire library — but it has two downsides.</p>
+<ol>
+<li><p>The transcript is now in the Notes category, so you’ll have to make sure it’s wide enough to see the transcript. If you were already using clip names to carry information this may leave you a little short of space.</p>
+</li>
+<li><p>Searching for a specific line now uses a different workflow to the Named Favorites mode, in which you simply select “Favorites” in the Clip Filtering menu as you search. In Notes on Keywords mode, you must select the <span class="docs-emoji">&#x2B50;</span>️ keyword collection (instead of choosing Favorites) to see single lines in search results.</p>
+</li>
+</ol>
+<p>To remind you which way an event was processed, check the suffix after the event name.</p>
+<ul>
+<li>Named Favorites <span class="docs-emoji">&#x2B50;</span>️</li>
+<li>Named Favorites on current Favorite ranges only <span class="docs-emoji">&#x2B50;</span>️<span class="docs-emoji">&#x2705;</span></li>
+<li>Notes on Keywords <span class="docs-emoji">&#x2B50;</span>️<span class="docs-emoji">&#x1F511;</span></li>
+</ul>
 <div id="retype-backlinks">
     <h2>See also</h2>
     <div class="grid gap-4 [grid-template-columns:repeat(auto-fit,minmax(300px,1fr))]">
