@@ -7,15 +7,12 @@
 
 **🔨 Improvements:**
 - It’s now possible to drag a **Library** or **one or more Events** to ScriptStar. If an Event is dragged, the Library location must be chosen in a following step. This allows users to save processing time in large libraries, and also to avoid `FCPXML` issues related to processing some kinds of clips in other Events.
-- This release also adds a **Show Options** button to the page where `SRT`'s can optionally be added. Press this button to choose the conversion mode. Please refer to the online [How to Use](/how-to-use/) page for more information on these modes.
-  - Named Favorites
-  - Named Favorites on current Favorite ranges only
-  - Notes on Keywords
-- All transcription formats (`CSV`, Word, `PDF`) can now be exported at once with a new button below the individual format choices. 
+- This release also adds a **Show Options** button to the page where `SRT`'s can optionally be added. Press this button to choose the conversion mode - **Named Favorites**, **Named Favorites on current Favorite ranges only** and **Notes on Keywords**. Please refer to the online [How to Use](/how-to-use/) page for more information on these modes. Thanks for suggesting Jeff Roy!
+- All transcription formats (`CSV`, Word, `PDF`) can now be exported at once with a new button below the individual format choices.  Thanks for suggesting Richard Taylor!
 
 **🐞 Bug Fixes:**
-- A bug related to handling of clips at `47.95fps` was fixed in [FCPXMLKit](https://fcp.cafe/latenite/#fcpxmlkit).
-- A bug related to handling of Point 2D data in FCPXML was fixed in [FCPXMLKit](https://fcp.cafe/latenite/#fcpxmlkit).
+- A bug related to handling of clips at `47.95fps` was fixed in [FCPXMLKit](https://fcp.cafe/latenite/#fcpxmlkit). Thanks for reporting FernKraft!
+- A bug related to handling of Point 2D data in FCPXML was fixed in [FCPXMLKit](https://fcp.cafe/latenite/#fcpxmlkit). Thanks for reporting Fernando Gorrotxategi Ugarte!
 
 ---
 
