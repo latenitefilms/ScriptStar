@@ -3,7 +3,7 @@
 ### 1.3.3 (Build 18)
 
 **🎉 Released:**
-- TBA, February 2026
+- Thursday 26th February 2026
 
 **🔨 Improvements:**
 - It’s now possible to drag a **Library** or **one or more Events** to ScriptStar. If an Event is dragged, the Library location must be chosen in a following step. This allows users to save processing time in large libraries, and also to avoid `FCPXML` issues related to processing some kinds of clips in other Events.
