@@ -48,7 +48,7 @@ Once launched, simply drag your **Final Cut Pro Library** or one or more **Final
 
 - If you dragged in a Library, you will also need to locate the Library in the Finder, but the location will be chosen for you, and this process is only needed the first time you work with a new Library. (This is necessary due to sandboxing requirements.)
 
-![](/static/scriptstar-01.png)
+![](/static/scriptstar-opening-screen-1-3-2.png)
 
 To recap, you first need to drag the Final Cut Pro Library or Event to ScriptStar from the Final Cut Pro interface, and then, if asked, locate the Library in the Finder.
 
@@ -75,7 +75,7 @@ At this point you can replace any of the built-in transcripts by dragging in `SR
 
 This is great for foreign languages, if you’ve had clips transcribed or edited by humans, or if Final Cut Pro’s transcript hasn’t worked or has poor results.
 
-![](/static/scriptstar-04.png)
+![](/static/scriptstar-srt-match-1-3-2.png)
 
 Press **Continue** to send the named favorites back to Final Cut Pro. (For alternative workflows, you can press **Show Options** in the lower right corner — more on those at the end of this page.)
 
@@ -95,7 +95,7 @@ If you want to send your clients a timed transcript, so they can highlight the m
 
 Formats include `CSV`, `Word` and `PDF`, and if you want all three, press the last button in the list.
 
-![](/static/scriptstar-05-cropped.jpg)
+![](/static/scriptstar-all-formats-1-3-2.png)
 
 ---
 
@@ -130,6 +130,8 @@ At the final stage before processing, where SRTs can be added, the Show Options 
 - Named Favorites
 - Named Favorites on current Favorite ranges only
 - Notes on Keywords
+
+![](/static/show-options.png)
 
 **Named Favorites** is the default, and will follow the workflow outlined above, placing transcripts onto Named Favorites, and existing Favorites onto the `Favorites ⭐️` keyword.
 
