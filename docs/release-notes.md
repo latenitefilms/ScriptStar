@@ -11,9 +11,9 @@
 
 - This release also adds a Show Options button to the page where SRTs can optionally be added. Press this button to choose the conversion mode. Please refer to the online [How to Use](/how-to-use/) page for more information on these modes.
 
--- Named Favorites
--- Named Favorites on current Favorite ranges only
--- Notes on Keywords
+  - Named Favorites
+  - Named Favorites on current Favorite ranges only
+  - Notes on Keywords
 
 - All transcription formats (CSV, Word, PDF) can now be exported at once with a new button below the individual format choices. 
 
