@@ -1,4 +1,4 @@
-# How To Use (updated for v1.3.3)
+# How To Use
 
 ScriptStar brings text-based editing to Final Cut Pro.
 
@@ -16,6 +16,10 @@ It converts Final Cut Pro’s built-in transcripts into named favorite ranges on
 
 ## Instructions
 
+!!!tip
+The below documentation is for ScriptStar `v1.3.3`.
+!!!
+
 To start, import your clips into a Final Cut Pro library as usual, and organize them into events if you like.
 
 By default in **Final Cut Pro v12** (lifetime/perpetual) and **Final Cut Pro Creator Studio v12** (subscription), **Transcribe in English** is enabled by default.
@@ -32,7 +36,7 @@ With clips transcribed, you can now launch ScriptStar from either your `/Applica
 
 Once launched, simply drag your **Final Cut Pro Library** or one or more **Final Cut Pro Events** from the Final Cut Pro Browser interface into the drop zone in ScriptStar to get started.
 
-- If you dragged one or more Events, you will now have to locate the Final Cut Pro library in the Finder — the Library's location isn't included in data dragged from Events. 
+- If you dragged one or more Events, you will now have to locate the Final Cut Pro library in the Finder — the Library's location isn't included in data dragged from Events.
 
 - If you dragged in a Library, you will also need to locate the Library in the Finder, but the location will be chosen for you, and this process is only needed the first time you work with a new Library. (This is necessary due to sandboxing requirements.)
 
@@ -96,7 +100,7 @@ At the final stage before processing, where SRTs can be added, the Show Options 
 - Named Favorites on current Favorite ranges only
 - Notes on Keywords
 
-**Named Favorites** is the default, and will follow the workflow outlined above, placing transcripts onto Named Favorites, and existing Favorites onto the `Favorites ⭐️` keyword. 
+**Named Favorites** is the default, and will follow the workflow outlined above, placing transcripts onto Named Favorites, and existing Favorites onto the `Favorites ⭐️` keyword.
 
 **Named Favorites on current Favorite ranges only** does just that — it only add transcripts onto ranges of clips where Favorites have already been marked.
 
