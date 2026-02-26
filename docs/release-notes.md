@@ -1,13 +1,37 @@
 # Release Notes
 
+
+### 1.3.3 (Build 18)
+
+**🎉 Released:**
+- TBA, February 2026
+
+**🔨 Improvements:**
+- It’s now possible to drag a **Library** or **one or more Events** to ScriptStar. If an Event is dragged, the Library location must be chosen in a following step. This allows users to save processing time in large libraries, and also to avoid bugs related to processing some clips in other events.
+
+- This release also adds a Show Options button to the page where SRTs can optionally be added. Press this button to choose the conversion mode. Please refer to the online [How to Use](/how-to-use/) page for more information on these modes.
+
+-- Named Favorites
+-- Named Favorites on current Favorite ranges only
+-- Notes on Keywords
+
+- All transcription formats (CSV, Word, PDF) can now be exported at once with a new button below the individual format choices. 
+
+- A bug related to handling of clips at 47.95fps was fixed.
+
+- FCPXMLKit 1.3.2 was incorporated.
+
+---
+
+
 ### 1.2.0 (Build 14)
 
 **🎉 Released:**
 - Friday 20th February 2026
 
 **🔨 Improvements:**
-- You now have two ways to import transcripts into Final Cut Pro. You can continue to use the **Named Favourites** workflow, or alternatively you can use the new **Notes on Keywords** workflow - which creates keywords with the transcription saved within the **Notes** column in the Final Cut Pro Browser.
-
+- This release added a new way to send transcripts into Final Cut Pro. You can continue to use the **Named Favorites** workflow, or alternatively you can use the new **Notes on Keywords** workflow. This creates multiple keyword ranges, using the same ⭐️ name, with the transcription placed on the **Notes** column in the Final Cut Pro Browser. To isolate individual lines of dialogue in search in this mode, select the ⭐️ keyword collection, then search at the top of the browser.
+- 
 ---
 
 ### 1.1.0 (Build 13)
