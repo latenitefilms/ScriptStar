@@ -6,6 +6,6 @@ If you have any general questions or feedback, you can discuss [here](https://gi
 
 GitHub registration is free, and this GitHub repository is actively monitored by [LateNite](https://github.com/latenitefilms).
 
-You can also email us: [support@latenitefilms.com](mailto:support@latenitefilms.com?subject=News%20Import)
+You can also email us: [support@latenitefilms.com](mailto:support@latenitefilms.com)
 
 We're based in **Melbourne, Australia** - you can check the timezone [here](https://www.timeanddate.com/worldclock/australia/melbourne).
