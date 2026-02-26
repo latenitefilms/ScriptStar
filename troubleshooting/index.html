@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.0.1.825396005102">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.0.1.825396651583">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.0.1">
@@ -32,11 +32,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.0.1.825396005102" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.0.1.825396651583" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.0.1.825396005102" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.0.1.825396651583" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.0.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.0.1.825396005102" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.0.1.825396651583" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -295,7 +295,8 @@
 <p>If it fails to export, or fails to import, then sadly, ScriptStar won&#x27;t work, and we can&#x27;t change the data that Final Cut Pro is sending to us.</p>
 <p>However, some things you can try to work around the issues with FCP&#x27;s output:</p>
 <ul>
-<li>Create a new Final Cut Pro <strong>Library</strong> and drag all your <strong>Events</strong> from the old Library to the new Library. You can then transcribe these clips and try to process this new Library with ScriptStar.</li>
+<li>In ScriptStar v1.3.2, we added the ability to <strong>drag an Event, not just a Library</strong>, into ScriptStar. Because this avoids  clips in other events entirely, this may solve the problem.</li>
+<li>Create a new Final Cut Pro <strong>Library</strong> and drag your <strong>Events</strong> from the old Library to the new Library. You can then transcribe these clips and try to process this new Library with ScriptStar.</li>
 <li>Alternatively, if your Library is large or complex, create a new Final Cut Pro <strong>Library</strong> and drag over just the clips you want to process with ScriptStar to the new Library. You can then transcribe these clips and process this new <strong>Library</strong> with ScriptStar. Finally, you can drag the new <strong>Event</strong> it makes back into your original Library.</li>
 <li>Replace any <code translate="no" v-pre>PDF</code>s in your <strong>Library</strong> with <code translate="no" v-pre>TIFF</code>&#x27;s or <code translate="no" v-pre>PNG</code>&#x27;s.</li>
 <li>Select your <strong>Project</strong> in the <strong>Browser</strong>, then hold down <code translate="no" v-pre>OPTION</code> and click the <code translate="no" v-pre>Clip</code> menubar item. You&#x27;ll see a previously hidden <code translate="no" v-pre>Verify and Repair Project</code> menubar item. You can use this to try and repair your <strong>Projects</strong> if there&#x27;s corruption.</li>
