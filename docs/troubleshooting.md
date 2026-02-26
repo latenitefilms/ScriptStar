@@ -31,7 +31,8 @@ If it fails to export, or fails to import, then sadly, ScriptStar won't work, an
 
 However, some things you can try to work around the issues with FCP's output:
 
-- Create a new Final Cut Pro **Library** and drag all your **Events** from the old Library to the new Library. You can then transcribe these clips and try to process this new Library with ScriptStar.
+- In ScriptStar v1.3.2, we added the ability to **drag an Event, not just a Library**, into ScriptStar. Because this avoids  clips in other events entirely, this may solve the problem.
+- Create a new Final Cut Pro **Library** and drag your **Events** from the old Library to the new Library. You can then transcribe these clips and try to process this new Library with ScriptStar.
 - Alternatively, if your Library is large or complex, create a new Final Cut Pro **Library** and drag over just the clips you want to process with ScriptStar to the new Library. You can then transcribe these clips and process this new **Library** with ScriptStar. Finally, you can drag the new **Event** it makes back into your original Library.
 - Replace any `PDF`s in your **Library** with `TIFF`'s or `PNG`'s.
 - Select your **Project** in the **Browser**, then hold down `OPTION` and click the `Clip` menubar item. You'll see a previously hidden `Verify and Repair Project` menubar item. You can use this to try and repair your **Projects** if there's corruption.
