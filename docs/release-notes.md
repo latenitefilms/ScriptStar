@@ -23,17 +23,6 @@
 
 ---
 
-
-### 1.2.0 (Build 14)
-
-**🎉 Released:**
-- Friday 20th February 2026
-
-**🔨 Improvements:**
-- This release added a new way to send transcripts into Final Cut Pro. You can continue to use the **Named Favorites** workflow, or alternatively you can use the new **Notes on Keywords** workflow. This creates multiple keyword ranges, using the same ⭐️ name, with the transcription placed on the **Notes** column in the Final Cut Pro Browser. To isolate individual lines of dialogue in search in this mode, select the ⭐️ keyword collection, then search at the top of the browser.
-- 
----
-
 ### 1.1.0 (Build 13)
 
 **🎉 Released:**
