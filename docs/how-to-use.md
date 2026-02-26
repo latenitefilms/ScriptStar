@@ -30,12 +30,15 @@ ScriptStar uses this transcription data. However, if you didn't transcribe your 
 
 However, If you'd prefer to use your own transcripts, which is necessary for non-English captions, you can provide an `SRT` file that will be used in place of the built-in transcripts.
 
+---
+
 ### Launch ScriptStar
 
 With clips transcribed, you can now launch ScriptStar from either your `/Applications` folder, or via the Final Cut Pro Workflow Extensions button in the toolbar and menubar.
 
 ![](/static/scriptstar-extension-smaller.png)
 
+---
 
 ### Drag a Library or Event(s) to ScriptStar
 
@@ -49,16 +52,22 @@ Once launched, simply drag your **Final Cut Pro Library** or one or more **Final
 
 To recap, you first need to drag the Final Cut Pro Library or Event to ScriptStar from the Final Cut Pro interface, and then, if asked, locate the Library in the Finder.
 
+---
+
 #### Which should you choose to drag in, a Library or an Event?
 
 - In most circumstances, we recommend dragging a Library. The process is simpler, and as ScriptStar is told the location of the Library, you can save a step. However, if you're working with larger Libraries, dragging in just one or two of your Events may process more quickly.
 - Working with Events can also avoid some issues we've seen with FCP. Specifically, if you have some kinds of PDFs stored in your Library, you may not be able to export and then re-import an FCPXML file of that Library back into Final Cut Pro — even if you don't use ScriptStar at all! This issue impacts ScriptStar's Library-level processing, so if you have problems working with Libraries, try just one Event (containing transcribed interviews) instead.
+
+---
 
 ### Choose one or move Events to process
 
 If you've chosen a Library, or more than one Event, you should now choose the Events you want to process, then press **Continue**.
 
 ![](/static/scriptstar-02.png)
+
+---
 
 ### Optional: Add SRT files and/or choose alternative workflows
 
@@ -70,11 +79,15 @@ This is great for foreign languages, if you’ve had clips transcribed or edited
 
 Press **Continue** to send the named favorites back to Final Cut Pro. (For alternative workflows, you can press **Show Options** in the lower right corner — more on those at the end of this page.)
 
+---
+
 ### Transcripts are sent to Final Cut Pro
 
 Transcripted versions of your clips will appear in new events with a ⭐️ at the end of the name.
 
 Before you leave ScriptStar, there’s one more optional step.
+
+---
 
 ### Optional: Export text transcripts from ScriptStar
 
@@ -83,6 +96,8 @@ If you want to send your clients a timed transcript, so they can highlight the m
 Formats include `CSV`, `Word` and `PDF`, and if you want all three, press the last button in the list.
 
 ![](/static/scriptstar-05-cropped.jpg)
+
+---
 
 ### Using the transcripts in Final Cut Pro
 
@@ -105,6 +120,8 @@ Lastly, if you had already applied Favorite ranges to clips or clip ranges befor
 For example, you can now select any line of dialogue, then drag it directly into the `Favorites ⭐️` keyword collection to tag it.
 
 However, if you wish to continue to use traditional Favorites to organize B-roll clips, while using ScriptStar's transcript favorites and `Favorites ⭐️` keywords to organize A-roll clips, that's easy. Simply move these two types of clips into separate events, and don't process the event containing the B-roll clips.
+
+---
 
 ## Show Options and Alternative workflows
 
