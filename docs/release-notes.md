@@ -7,7 +7,7 @@
 - TBA, February 2026
 
 **🔨 Improvements:**
-- It’s now possible to drag a **Library** or **one or more Events** to ScriptStar. If an Event is dragged, the Library location must be chosen in a following step. This allows users to save processing time in large libraries, and also to avoid bugs related to processing some clips in other events.
+- It’s now possible to drag a **Library** or **one or more Events** to ScriptStar. If an Event is dragged, the Library location must be chosen in a following step. This allows users to save processing time in large libraries, and also to avoid FCPXML issues related to processing some kinds of clips in other events.
 
 - This release also adds a Show Options button to the page where SRTs can optionally be added. Press this button to choose the conversion mode. Please refer to the online [How to Use](/how-to-use/) page for more information on these modes.
 
