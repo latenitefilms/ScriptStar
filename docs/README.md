@@ -14,6 +14,22 @@ It converts Final Cut Pro’s built-in transcripts into named favourite ranges o
 
 ---
 
+Mark at **Ripple Training** has also created a great introduction video on YouTube:
+
+<div style="width:100%; aspect-ratio:16/9;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/JZS6NxQ3V7o?si=GwwXp2QxtBwXuj2P&controls=0"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+    style="width:100%; height:100%; border:0; display:block;">
+  </iframe>
+</div>
+
+---
+
 ## Why do you need this?
 
 Final Cut Pro v12 transcribes your source clips, which is useful, but you can’t see them directly, so have to know what to search for.
