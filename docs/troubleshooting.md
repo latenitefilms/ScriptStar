@@ -62,3 +62,14 @@ There might also be crash logs in the **Retired** sub-folder (these are crash lo
 Please `ZIP` up all of these individual crash logs, so that we can review them all.
 
 You [post an issue](https://github.com/latenitefilms/scriptstar/issues) with these files in a `ZIP`, and we'll try and resolve your specific problem.
+
+---
+
+### Trashing Preferences
+
+You can trash ScriptStar's preferences and stored data by entering the following commands in macOS Terminal:
+
+```
+defaults delete com.latenitefilms.ScriptStar
+defaults delete com.latenitefilms.ScriptStar.WorkflowExtension
+```
