@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.825921235516">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.825988934571">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.1.0">
@@ -28,11 +28,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.1.0.825921235516" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.1.0.825988934571" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.1.0.825921235516" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.1.0.825988934571" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.1.0.825921235516" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.1.0.825988934571" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -268,6 +268,18 @@
     </h1>
 </doc-anchor-target>
 <p>To uninstall <strong>ScriptStar</strong>, simply drag the application to the trash/bin.</p>
+<hr>
+<doc-anchor-target id="trashing-preferences">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#trashing-preferences">#</doc-anchor-trigger>
+        <span>Trashing Preferences</span>
+    </h3>
+</doc-anchor-target>
+<p>You can trash ScriptStar&#x27;s preferences and stored data by entering the following commands in macOS Terminal:</p>
+<div id="trashing-preferences-code-1" class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">defaults delete com.latenitefilms.ScriptStar
+defaults delete com.latenitefilms.ScriptStar.WorkflowExtension</code></pre>
+</doc-codeblock></div>
 
                 
                 <!-- Required only on API pages -->
