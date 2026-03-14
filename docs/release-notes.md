@@ -1,5 +1,17 @@
 # Release Notes
 
+### 1.4.0 (Build 20)
+
+**🎉 Released:**
+- Sunday 15th March 2026
+
+**🔨 Improvements:**
+- We've improved the error messages for the Open Dialog's and Permission Dialog prompts. Thanks for your feedback FCP Cafe Discord team!
+- We've improved the handling of comma-delimited decimals when using in `Point2D` in `FCPXML`. Thanks David Peterson for your genius!
+- We now support both Compound Clips and Synchronised Clips (although we still strongly recommend using Multicam clips)! Thanks Bill (from Bill and Ben) and TechMixr!
+
+---
+
 ### 1.3.3 (Build 18)
 
 **🎉 Released:**
