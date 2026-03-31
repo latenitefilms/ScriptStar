@@ -22,14 +22,6 @@ After 90 days, the build expires and becomes unavailable for testing.
 
 ---
 
-## Tools for Professionals
-
-You can learn more about LateNite's amazing range of apps on [FCP Cafe](https://fcp.cafe/latenite/).
-
-![](/static/lateniteapps.png)
-
----
-
 ## Unlock CommandPost
 
 CommandPost is **The Swiss Army Knife for Post Production Professionals**.
@@ -47,3 +39,11 @@ You can use **ScriptStar** to "unlock" CommandPost! 🥳
 You can download and learn more on the [CommandPost website](https://commandpost.fcp.cafe).
 
 ![](/static/commandpost.png)
+
+---
+
+## Tools for Professionals
+
+You can learn more about LateNite's amazing range of apps on [FCP Cafe](https://fcp.cafe/latenite/).
+
+![](/static/lateniteapps.png)
