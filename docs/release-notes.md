@@ -1,5 +1,31 @@
 # Release Notes
 
+### 1.5.0 (Build 26)
+
+**🎉 Released:**
+- 23rd April 2026
+
+**🔨 Improvements:**
+This release includes local transcription with downloadable models! You'll find all the changes on the page where you can add `SRT`s and kick off the processing.
+
+To create a **New Transcript** for any clip, whether it's been transcribed by Final Cut Pro already or not, just check the box for that clip in the **New Transcript** column, or click the **New Transcript** column header itself to check that box for all clips.
+
+All transcriptions are local, private, free, and never leave your Mac.
+
+Models include:
+
+- Parakeet v3 (fast, multiple European languages)
+- Whisper v3-large (slow, but includes Asian languages like Chinese and Japanese)
+- Apple's SpeechTranscriber model that's built in (fast, but not as accurate as the other models, and seemingly the model Final Cut Pro uses natively, with poor multi-language support).
+
+You can choose the model to use in the **Options** panel, and the first time you transcribe, the model will download automatically, displaying a progress bar as it does so.
+
+For the most accurate timing, don't use the built-in transcripts — just re-transcribe with Parakeet. It's fast, and the timing is more accurate than Final Cut Pro's own transcripts.
+
+You shouldn't need to manage these models, but if you try Whisper and find it doesn't work for you, just hold `COMMAND+OPTION` as you choose that option to delete its files.
+
+---
+
 ### 1.4.0 (Build 20)
 
 **🎉 Released:**
