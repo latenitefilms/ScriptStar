@@ -1,0 +1,16 @@
+﻿# ScriptStar
+
+> ScriptStar brings text-based editing to Final Cut Pro.
+
+- [ScriptStar](https://scriptstar.fcp.cafe/readme.md): ScriptStar
+- [Buy on Mac App Store](https://scriptstar.fcp.cafe/buy.md): ScriptStar is a one-time payment of USD$9.99 on the Mac App Store.
+- [Educational Pricing](https://scriptstar.fcp.cafe/educational.md): Educational institutions can get a 50% discount when they purchase 20 or more copies through Apple School Manager.
+- [System Requirements](https://scriptstar.fcp.cafe/system-requirements.md): ScriptStar requires Final Cut Pro v12 (lifetime/perpetual) or Final Cut Pro Creator Studio v12 (subscription) or later.
+- [How To Use](https://scriptstar.fcp.cafe/how-to-use.md): ScriptStar brings text-based editing to Final Cut Pro.
+- [Support](https://scriptstar.fcp.cafe/support.md): If you run into any bugs, crashes, or you have a feature request, you can post an issue here.
+- [Frequently Asked Questions](https://scriptstar.fcp.cafe/faq.md): ScriptStar doesn't actually do any of the transcription (currently) - it's just a way to get transcription data into a useful format in Final Cut Pro.
+- [Troubleshooting](https://scriptstar.fcp.cafe/troubleshooting.md): Apologies in advance if you have any trouble using ScriptStar.
+- [Release Notes](https://scriptstar.fcp.cafe/release-notes.md): 🎉 Released:
+- [Uninstall](https://scriptstar.fcp.cafe/uninstall.md): To uninstall ScriptStar, simply drag the application to the trash/bin.
+- [Credits](https://scriptstar.fcp.cafe/credits.md): ScriptStar has been created by Iain Anderson.
+- [Privacy Policy](https://scriptstar.fcp.cafe/privacy.md): This is the privacy policy for the ScriptStar, macOS Application that is available on the macOS App Store and TestFlight.
