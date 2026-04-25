@@ -65,7 +65,7 @@ To recap, you first need to drag the Final Cut Pro Library or Event to ScriptSta
 
 If you've chosen a Library, or more than one Event, you should now choose the Events you want to process, then press **Continue**.
 
-![](/static/scriptstar-02.png)
+![](/static/scriptstar-02-crop.png)
 
 ---
 
