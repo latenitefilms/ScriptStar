@@ -17,7 +17,7 @@ It converts Final Cut Pro’s built-in transcripts into named favorite ranges on
 ## Instructions
 
 !!!tip
-The below documentation is for ScriptStar `v1.3.3`.
+The below documentation is for ScriptStar `v1.5`.
 !!!
 
 To start, import your clips into a Final Cut Pro library as usual, and organize them into events if you like.
@@ -26,9 +26,9 @@ By default in **Final Cut Pro v12** (lifetime/perpetual) and **Final Cut Pro Cre
 
 ![](/static/fcp-preferences.png)
 
-ScriptStar uses this transcription data. However, if you didn't transcribe your clips on import (which will be the case if your library was created before FCP 12) then you can transcribe them now. Select one or many clips, right-click, choose Analyze and Fix, and check Transcribe in English in the dialog that appears.
+ScriptStar uses this transcription data. However, if you didn't transcribe your clips on import (which will be the case if your library was created before FCP 12) then you can transcribe them now if you wish. Select one or many clips, right-click, choose Analyze and Fix, and check Transcribe in English in the dialog that appears.
 
-However, If you'd prefer to use your own transcripts, which is necessary for non-English captions, you can provide an `SRT` file that will be used in place of the built-in transcripts.
+However, If you'd prefer to use your own transcripts, which is necessary for non-English captions, you can provide  `SRT` files that will be used in place of the built-in transcripts, or `New in v1.5`, transcribe in ScriptStar instead. Many languages are supported.
 
 ---
 
@@ -69,13 +69,35 @@ If you've chosen a Library, or more than one Event, you should now choose the Ev
 
 ---
 
-### Optional: Add SRT files and/or choose alternative workflows
+### Optional: Add SRT files, perform new transcriptions, and/or choose alternative workflows
 
-At this point you can replace any of the built-in transcripts by dragging in `SRT` files that match the names of any of your existing clips.
+Transcription and SRT support is great for foreign languages, if you’ve had clips transcribed or edited by humans, or if Final Cut Pro’s transcript hasn’t worked or has poor results.
 
-This is great for foreign languages, if you’ve had clips transcribed or edited by humans, or if Final Cut Pro’s transcript hasn’t worked or has poor results.
+At this point, you can replace any of the built-in transcripts by dragging in `SRT` files that match the names of any of your existing clips.
 
-![](/static/scriptstar-srt-match-1-3-2.png)
+`New in v1.5`
+
+You can also choose to **create a new transcript for any or all clips**. Click the "New Transcript" column header to transcribe all clips, or check just some of the boxes in that column to transcribe only some clips. 
+
+Multicam clips can be selected explicitly here, and **the audio angle selected in the Info Inspector** is the angle that will be transcribed. 
+
+![](/static/review-replace-retranscribe-1.5.png)
+
+All transcriptions are created locally, on your Mac, and no files ever leave your machine.
+
+Transcription can be performed by the **Parakeet** or **Whisper** open-source models. Click Show Options to choose which model to use. If this is the first time you've used a model, it will be downloaded automatically. The Apple transcription model is the same one used by Final Cut Pro, but we've found it less accurate than the other models.
+
+**We recommend Parakeet** for English and most European languages — it's very fast, and the timing is more accurate than the other models, making it easier to use its output for text-based editing. Whisper is slower, but supports a wider range of Asian languages.
+
+Press Continue to perform the transcription on selected clips before sending named favorites back to Final Cut Pro.
+
+If transcription fails for any clip, a warning will be shown. This can happen because a clip doesn't include any recognisable audio, or if the language spoken cannot be recognised by the model chosen. For example, if you've tried to transcribe Mandarin audio with Parakeet, it will fail. In this case, you may wish to change to the Whisper model and try again.
+
+Clips that failed to transcribe will now be de-selected, so if you're happy to skip the clips that failed, you can simply press Continue once more to go ahead with selected clips. Any clips that have already been transcribed will not need to be processed again.
+
+![](/static/show-options-1.5.png)
+
+To delete a downloaded model, hold Command and Option, then click on the model you wish to remove.
 
 Press **Continue** to send the named favorites back to Final Cut Pro. (For alternative workflows, you can press **Show Options** in the lower right corner — more on those at the end of this page.)
 
@@ -93,7 +115,9 @@ Before you leave ScriptStar, there’s one more optional step.
 
 If you want to send your clients a timed transcript, so they can highlight the most important phrases in interviews, or if you'd found it useful yourself, you can now export those transcripts in whatever format suits your workflow.
 
-Formats include `CSV`, `Word` and `PDF`, and if you want all three, press the last button in the list.
+`New in v1.5`
+
+Formats include `CSV`, `Word`, `SRT` and `PDF`, and if you want all four options, press the last button in the list. Note that SRT export produces a separate file for each transcribed clip.
 
 ![](/static/scriptstar-all-formats-1-3-2.png)
 
@@ -131,7 +155,7 @@ At the final stage before processing, where SRTs can be added, the Show Options 
 - Named Favorites on current Favorite ranges only
 - Notes on Keywords
 
-![](/static/show-options.png)
+![](/static/show-options-1.5.png)
 
 **Named Favorites** is the default, and will follow the workflow outlined above, placing transcripts onto Named Favorites, and existing Favorites onto the `Favorites ⭐️` keyword.
 
