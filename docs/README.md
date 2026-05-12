@@ -48,6 +48,14 @@ If you like, choose the events you want to process, then proceed.
 
 At this point you can replace any of the built-in transcripts by dragging in `SRT` files that match the names of any of your existing clips. This is great for foreign languages, or if you’ve had clips transcribed or edited by humans.
 
+Alternatively, you can use built-in, free, local transcription instead of built-in transcripts if you prefer. Parakeet and Whisper models are supported, and we recommend Parakeet for these languages:
+
+- Bulgarian (bg), Croatian (hr), Czech (cs), Danish (da), Dutch (nl), English (en), Estonian (et), Finnish (fi), French (fr), German (de), Greek (el), Hungarian (hu), Italian (it), Latvian (lv), Lithuanian (lt), Maltese (mt), Polish (pl), Portuguese (pt), Romanian (ro), Slovak (sk), Slovenian (sl), Spanish (es), Swedish (sv), Russian (ru), Ukrainian (uk)
+
+If you wish to work with other languges, use Whisper, which is slower, but includes support for Chinese, Japanese and Korean — among others.
+
+Continue once more. If you chose to transcribe one or more clips, that will occur, and then the transcripts will be sent back to FCP.
+
 Final Cut Pro now has the named favorites, but there’s one more optional step with ScriptStar. If you want to send you clients a timed transcript, so they can highlight the most important phrases in interviews, you can now export a `CSV` for Numbers or Excel, a Word doc, or a `PDF`. Save these, send them to clients, and just ask them to highlight any lines they really like or really hate.
 
 Back in Final Cut Pro, look for the events with the star in the name, and twirl each clip’s disclosure triangle to see every line of transcribed dialogue. Select the lines you want and drag or tap E to add them to a timeline.
