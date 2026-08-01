@@ -1,5 +1,23 @@
 # Release Notes
 
+### 1.6.0 (Build 31)
+
+**🎉 Released:**
+- 1st July 2026
+
+**🔨 Improvements:**
+- File-based transcription
+  - If you drag one or more audio or video files from the Finder (not Final Cut Pro) to the ScriptStar window, they will be locally transcribed using your chosen model. This lets you create a transcription (PDF/DOC/CSV) or SRT for any file, including output from Final Cut Pro or any other app.
+  - ScriptStar can now be used as a transcription tool without Final Cut Pro.
+
+- Length limits
+  - You can define the maximum number of characters or words in ScriptStar's output.
+  - This applies to transcripts sent back to Final Cut Pro as Named Favorites (or Notes on Keywords) as well as the limits for SRTs.
+  - Controlling the maximum number of characters or words in each line sent back to Final Cut Pro allows you to control their width, making it easier to work with a smaller Browser.
+    - Please note, because each line of dialogue must be separated from the next by at least one frame, we advise keeping this value above 80 characters to avoid too many discontinuities.
+  - Controlling the maximum number of characters or words in an SRT caption file can be set as low as one word per caption.
+    - This allows you to make sure your captions aren’t too long to be read, and also to use tools that convert FCP captions or SRT files to burned-in word-by-word captions.
+
 ### 1.5.0 (Build 26)
 
 **🎉 Released:**

@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831897625767">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.838909347420">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.5.3">
+    <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
     <title>Release Notes</title>
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.5.3.831897625767" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.6.0.838909347420" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.5.3.831897625767" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.5.3.831897625767" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.838909347420" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.838909347420" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -234,6 +234,38 @@
 
                 <!-- Page content  -->
 <h1 id="release-notes">Release Notes</h1>
+<h3 id="160-build-31">1.6.0 (Build 31)</h3>
+<p><strong><span class="docs-emoji">&#x1F389;</span> Released:</strong></p>
+<ul>
+<li>1st July 2026</li>
+</ul>
+<p><strong><span class="docs-emoji">&#x1F528;</span> Improvements:</strong></p>
+<ul>
+<li>
+<p>File-based transcription</p>
+<ul>
+<li>If you drag one or more audio or video files from the Finder (not Final Cut Pro) to the ScriptStar window, they will be locally transcribed using your chosen model. This lets you create a transcription (PDF/DOC/CSV) or SRT for any file, including output from Final Cut Pro or any other app.</li>
+<li>ScriptStar can now be used as a transcription tool without Final Cut Pro.</li>
+</ul>
+</li>
+<li>
+<p>Length limits</p>
+<ul>
+<li>You can define the maximum number of characters or words in ScriptStar&#x27;s output.</li>
+<li>This applies to transcripts sent back to Final Cut Pro as Named Favorites (or Notes on Keywords) as well as the limits for SRTs.</li>
+<li>Controlling the maximum number of characters or words in each line sent back to Final Cut Pro allows you to control their width, making it easier to work with a smaller Browser.
+<ul>
+<li>Please note, because each line of dialogue must be separated from the next by at least one frame, we advise keeping this value above 80 characters to avoid too many discontinuities.</li>
+</ul>
+</li>
+<li>Controlling the maximum number of characters or words in an SRT caption file can be set as low as one word per caption.
+<ul>
+<li>This allows you to make sure your captions aren’t too long to be read, and also to use tools that convert FCP captions or SRT files to burned-in word-by-word captions.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <h3 id="150-build-26">1.5.0 (Build 26)</h3>
 <p><strong><span class="docs-emoji">&#x1F389;</span> Released:</strong></p>
 <ul>
