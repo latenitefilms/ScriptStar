@@ -214,6 +214,8 @@ Maximum line length is used when sending information back to FCP. If you've foun
 
 Maximum SRT caption length governs the length of each SRT caption. If you choose 1 word here, each SRT caption will be the length of a single word. When combined with the Convert Caption to Subtitle feature in FCP 12.3, this allows you to create one-word visible captions.
 
+![](/static/scriptstar-independent-mode.png)
+
 ## Using ScriptStar without Final Cut Pro
 
 It's possible to use ScriptStar for free, local, and private transcription of any audio or video file. This produces the same timecoded transcripts and SRT files that the FCP-based workflow does, but doesn't send anything back to Final Cut Pro.
