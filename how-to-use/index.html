@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.838909347420">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.839403237247">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.6.0.838909347420" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.6.0.839403237247" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.838909347420" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.839403237247" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.838909347420" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.839403237247" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -262,11 +262,11 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>The below documentation is for ScriptStar <code translate="no" v-pre>v1.5</code>.</p>
+<p>The below documentation is for ScriptStar <code translate="no" v-pre>v1.6</code>. While ScriptStar is still designed mostly for use with Final Cut Pro, if all you need is transcription, you can also work directly with audio and video files. For more information on this, skip to the &quot;Using ScriptStar without Final Cut Pro&quot; section near the end of the page.</p>
         </div>
     </div>
 </div>
-<p>To start, import your clips into a Final Cut Pro library as usual, and organize them into events if you like.</p>
+<p>To start using ScriptStar with FCP, import your clips into a Final Cut Pro library as usual, and organize them into events if you like.</p>
 <p>By default in <strong>Final Cut Pro v12</strong> (lifetime/perpetual) and <strong>Final Cut Pro Creator Studio v12</strong> (subscription), <strong>Transcribe in English</strong> is enabled by default.</p>
 <figure class="content-center">
     <img src="../static/fcp-preferences.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1116" height="1370" />
@@ -322,8 +322,10 @@
     <figcaption class="caption"></figcaption>
 </figure>
 <p>All transcriptions are created locally, on your Mac, and no files ever leave your machine.</p>
-<p>Transcription can be performed by the <strong>Parakeet</strong> or <strong>Whisper</strong> open-source models. Click Show Options to choose which model to use. If this is the first time you&#x27;ve used a model, it will be downloaded automatically. The Apple transcription model is the same one used by Final Cut Pro, but we&#x27;ve found it less accurate than the other models.</p>
+<p>Transcription can be performed by the <strong>Parakeet</strong> or <strong>Whisper</strong> open-source models. Click <strong>Show Options</strong> and choose which model to use at the top of this panel. If this is the first time you&#x27;ve used a model, it will be downloaded automatically. The Apple transcription model is the same one used by Final Cut Pro, but we&#x27;ve found it less accurate than the other models.</p>
 <p><strong>We recommend Parakeet</strong> for English and most European languages — it&#x27;s very fast, and the timing is more accurate than the other models, making it easier to use its output for text-based editing. Whisper is slower, but supports a wider range of Asian languages.</p>
+<p><code translate="no" v-pre>New in v1.6.1</code></p>
+<p>If you&#x27;re using Whisper for transcription, you can optionally choose which language you&#x27;re using. This can help with some cases where the correct language isn&#x27;t correctly detected, or when more than one language is spoken.</p>
 <p>Press Continue to perform the transcription on selected clips before sending named favorites back to Final Cut Pro.</p>
 <p>If transcription fails for any clip, a warning will be shown. This can happen because a clip doesn&#x27;t include any recognisable audio, or if the language spoken cannot be recognised by the model chosen. For example, if you&#x27;ve tried to transcribe Mandarin audio with Parakeet, it will fail. In this case, you may wish to change to the Whisper model and try again.</p>
 <p>Clips that failed to transcribe will now be de-selected, so if you&#x27;re happy to skip the clips that failed, you can simply press Continue once more to go ahead with selected clips. Any clips that have already been transcribed will not need to be processed again.</p>
@@ -341,7 +343,7 @@
 <h3 id="optional-export-text-transcripts-from-scriptstar">Optional: Export text transcripts from ScriptStar</h3>
 <p>If you want to send your clients a timed transcript, so they can highlight the most important phrases in interviews, or if you&#x27;d found it useful yourself, you can now export those transcripts in whatever format suits your workflow.</p>
 <p><code translate="no" v-pre>New in v1.5</code></p>
-<p>Formats include <code translate="no" v-pre>CSV</code>, <code translate="no" v-pre>Word</code>, <code translate="no" v-pre>SRT</code> and <code translate="no" v-pre>PDF</code>, and if you want all four options, press the last button in the list. Note that SRT export produces a separate file for each transcribed clip.</p>
+<p>Formats include <code translate="no" v-pre>CSV</code>, <code translate="no" v-pre>Word</code>, <code translate="no" v-pre>PDF</code> and <code translate="no" v-pre>SRT</code>, and if you want all four options, press the last button in the list. Note that SRT export produces a separate file for each transcribed clip.</p>
 <figure class="content-center">
     <img src="../static/scriptstar-all-formats-1-3-2.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1534" height="1084" />
     <figcaption class="caption"></figcaption>
@@ -366,7 +368,25 @@
 <p>However, if you wish to continue to use traditional Favorites to organize B-roll clips, while using ScriptStar&#x27;s transcript favorites and <code translate="no" v-pre>Favorites ⭐️</code> keywords to organize A-roll clips, that&#x27;s easy. Simply move these two types of clips into separate events, and don&#x27;t process the event containing the B-roll clips.</p>
 <hr>
 <h2 id="show-options-and-alternative-workflows">Show Options and Alternative workflows</h2>
-<p>At the final stage before processing, where SRTs can be added, the Show Options button allows two alternative workflows to be chosen. When you press Show Options, a panel appears with three choices:</p>
+<p>At the final stage before processing, where SRTs can be added, the Show Options button allows two alternative workflows to be chosen. When you press Show Options, a panel appears with four sections:</p>
+<ul>
+<li>Local Transcription Models</li>
+<li>Transcription Language (Whisper only)</li>
+<li>Processing Methods</li>
+<li>Length Limits</li>
+</ul>
+<h3 id="local-transcription-models">Local Transcription Models</h3>
+<p>This allows you to choose which model you want to use. This is discussed in the transcription section above, but to recap:</p>
+<ul>
+<li>Parakeet is fastest, supports many languages, and is recommended.</li>
+<li>Whisper is slower, has different models to choose from, supports more languages, and allows a specific language to be chosen.</li>
+<li>Apple&#x27;s model is fast but not as accurate as the other two.</li>
+<li>Command-Option-click on a model to delete it if you wish.</li>
+</ul>
+<h3 id="transcription-language-whisper-only">Transcription Language (Whisper only)</h3>
+<p>If Automatic language transcription is not correctly selecting the language used in your dialogue, choose the correct language from the menu here. This is only functional when using the Whisper models.</p>
+<h3 id="processing-methods">Processing Methods</h3>
+<p>This section allows you to choose how transcripts are stored within Final Cut Pro, including three options:</p>
 <ul>
 <li>Named Favorites</li>
 <li>Named Favorites on current Favorite ranges only</li>
@@ -396,6 +416,41 @@
 <li>Named Favorites <span class="docs-emoji">&#x2B50;</span>️</li>
 <li>Named Favorites on current Favorite ranges only <span class="docs-emoji">&#x2B50;</span>️<span class="docs-emoji">&#x2705;</span></li>
 <li>Notes on Keywords <span class="docs-emoji">&#x2B50;</span>️<span class="docs-emoji">&#x1F511;</span></li>
+</ul>
+<h3 id="length-limits">Length Limits</h3>
+<p>These controls allow you to control how long ScriptStar&#x27;s output is, in characters or words:</p>
+<ul>
+<li>Maximum line length</li>
+<li>Maximum SRT caption length</li>
+</ul>
+<p>Maximum line length is used when sending information back to FCP. If you&#x27;ve found that transcripts are too long to comfortably read, consider reducing this value. However, because FCP requires a one-frame gap between favorite ranges, we recommend not using a very small value here.</p>
+<p>Maximum SRT caption length governs the length of each SRT caption. If you choose 1 word here, each SRT caption will be the length of a single word. When combined with the Convert Caption to Subtitle feature in FCP 12.3, this allows you to create one-word visible captions.</p>
+<h2 id="using-scriptstar-without-final-cut-pro">Using ScriptStar without Final Cut Pro</h2>
+<p>It&#x27;s possible to use ScriptStar for free, local, and private transcription of any audio or video file. This produces the same timecoded transcripts and SRT files that the FCP-based workflow does, but doesn&#x27;t send anything back to Final Cut Pro.</p>
+<p>This means that ScriptStar can be used by non-editors to transcribe any recording for reference, and by anyone who needs captions for a finished, edited video. To do this:</p>
+<ul>
+<li>Launch the ScriptStar app from the Applications folder.</li>
+<li>Drag one or more audio or video files direct from the Finder into ScriptStar. You will not be asked to choose an event or library.</li>
+<li>If you need to drag in additional files, you can do that now.</li>
+<li>Press the Show Options button in the lower right corner to choose a Transcription Model and set Length Limits. Processing Methods are not relevant in this mode, and are greyed out.</li>
+<li>All clips dragged in will be selected for transcription by default.</li>
+<li>Press Transcribe Files to proceed.</li>
+<li>As in the FCP workflow, if any files fail to be transcribed, a warning will appear, and those files will be unchecked. Press Transcribe Files again to continue without processing those files.</li>
+<li>When transcription is complete, the transcripts can be exported in any or all the usual formats: <code translate="no" v-pre>CSV</code>, <code translate="no" v-pre>Word</code>, <code translate="no" v-pre>PDF</code> and <code translate="no" v-pre>SRT</code>.</li>
+</ul>
+<h2 id="use-scriptstar-to-create-captions-for-a-finished-video-project-in-final-cut-pro">Use ScriptStar to create captions for a finished video project in Final Cut Pro</h2>
+<p>ScriptStar is usually used to add transcripts to browser clips, but you can also use it to generate captions in a finished project.</p>
+<ul>
+<li>Export the project to any video+audio or audio format.</li>
+<li>Use ScriptStar to create an SRT file from the final video file, independently of FCP, using the workflow shown above.</li>
+<li>Import the SRT captions back into the same timeline using File &gt; Import Captions.</li>
+<li>SRT captions can now be retimed and corrected if necessary. It&#x27;s always recommended to check final captions before exporting a final SRT from FCP.</li>
+</ul>
+<p>Note that SRT captions remain optional for the viewer, and are better for accessibility. However, if you need on-screen visible subtitles burned into the video with controllable font, size and animation, you can do that with a new feature in FCP 12.3. With SRT captions on a timeline:</p>
+<ul>
+<li>Select one caption, then press <code translate="no" v-pre>COMMAND</code>-A to select all of them.</li>
+<li>Right-click one caption, then choose Duplicate Captions to Subtitles.</li>
+<li>To change the style of all subtitles, you can select them, then change the properties in the Inspector. You can also change the title template used by double-click on the title you wish to use instead.</li>
 </ul>
 <div id="retype-backlinks">
     <h2>See also</h2>

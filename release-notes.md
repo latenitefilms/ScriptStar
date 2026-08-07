@@ -1,5 +1,19 @@
 # Release Notes
 
+### 1.6.1 (Build 34)
+
+**🎉 Released:**
+- xx August 2026
+
+**🔨 Improvements:**
+- The transcription language can now be explicitly set when using Whisper. Thanks to danielsti for requesting!
+  - When using the Whisper model for transcription, it's now possible to manually choose the language. This can help if the wrong language is chosen automatically. Note that Parakeet always auto-detects the transcription language. 
+
+**🐞 Bug Fixes:**
+- The Options panel could sometimes obscure other parts of the user interface. Thanks to Hexeric for reporting!
+- The way in which we combine multiple audio channels before transcription has been improved; this should make quiet transcriptions with multi-channel audio files more reliable. Thanks to Hexeric for reporting!
+- In some circumstances, digits (0-9) weren't always separated correctly from the neighbouring word; this has been fixed.
+
 ### 1.6.0 (Build 31)
 
 **🎉 Released:**
