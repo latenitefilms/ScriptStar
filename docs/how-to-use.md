@@ -177,7 +177,7 @@ This section allows you to choose how transcripts are stored within Final Cut Pr
 - Named Favorites on current Favorite ranges only
 - Notes on Keywords
 
-![](/static/show-options-1.5.png)
+![](/static/show-options-1.6.1.png)
 
 **Named Favorites** is the default, and will follow the workflow outlined above, placing transcripts onto Named Favorites, and existing Favorites onto the `Favorites ⭐️` keyword.
 
