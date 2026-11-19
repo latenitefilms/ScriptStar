@@ -1,13 +1,33 @@
 # Release Notes
 
+### 1.6.3 (Build 37)
+
+**🎉 Released:**
+- 20th August 2026
+
+**🔨 Improvements:**
+- Added support for Final Cut Pro v13.
+
+---
+
+### 1.6.2 (Build 36)
+
+**🎉 Released:**
+- 22nd September 2026
+
+**🔨 Improvements:**
+- Various Improvements.
+
+---
+
 ### 1.6.1 (Build 34)
 
 **🎉 Released:**
-- xx August 2026
+- 14th July 2026
 
 **🔨 Improvements:**
 - The transcription language can now be explicitly set when using Whisper. Thanks to danielsti for requesting!
-  - When using the Whisper model for transcription, it's now possible to manually choose the language. This can help if the wrong language is chosen automatically. Note that Parakeet always auto-detects the transcription language. 
+  - When using the Whisper model for transcription, it's now possible to manually choose the language. This can help if the wrong language is chosen automatically. Note that Parakeet always auto-detects the transcription language.
 
 **🐞 Bug Fixes:**
 - The Options panel could sometimes obscure other parts of the user interface. Thanks to Hexeric for reporting!
